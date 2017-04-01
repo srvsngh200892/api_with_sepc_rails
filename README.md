@@ -36,7 +36,7 @@ Things you need to know for this application :
     - controller
       - api
         - v1
-          - process_csvs_controller.rb (we dont have any business logic)
+          - process_csvs_controller.rb (we dont have any business logic in controller all the logic is moved to service layer)
               for api i have return process csv layer
      - services
        - api
