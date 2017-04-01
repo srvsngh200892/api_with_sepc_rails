@@ -21,8 +21,8 @@ Things you need to know for this application :
     rspec spec/controllers
 * api end points
    * POST /api/v1/process_csvs/process_csv  (pass valid csv)
-     Request Type POST
-     Request Valid csv must contain first_name header and it should be csv file
+     * Request Type POST
+     * Request Valid csv must contain first_name header and it should be csv file
      
      Response if csv file is valid
        {"saurav":4,"gaurav":2}
