@@ -24,9 +24,9 @@ Things you need to know for this application :
      * Request Type POST
      * Request Valid csv must contain first_name header and it should be csv file
      
-     Response if csv file is valid
+     * Response if csv file is valid
        {"saurav":4,"gaurav":2}
-     Response if csv file is not valid
+     * Response if csv file is not valid
        {"error":{"code":1,"type":"error","message":"please provide vaild file"}}
        
      You cant upload any other file except CSV
